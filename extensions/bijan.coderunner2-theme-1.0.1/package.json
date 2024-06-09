@@ -1,0 +1,42 @@
+{
+	"name": "coderunner2-theme",
+	"displayName": "CodeRunner 2 like Theme",
+	"publisher": "bijan",
+	"description": "A theme for Visual Studio Code resembling CodeRunner 2 app for MacOS.",
+	"version": "1.0.1",
+	"license": "MIT",
+	"scripts": {
+		"prestart": "tsc index.ts",
+		"start": "node index.js"
+	},
+	"engines": {
+		"vscode": "^1.11.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "CodeRunner 2 Theme",
+				"uiTheme": "vs-dark",
+				"path": "./theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^7.0.10",
+		"typescript": "^2.2.1",
+		"vscode-theme-generator": "*"
+	},
+	"__metadata": {
+		"id": "6bb13c6e-925d-4b45-9bdb-9ad7a7829176",
+		"publisherId": "50bd5e55-79f2-4a91-a424-42182ded0696",
+		"publisherDisplayName": "bijan",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1700224942442,
+		"preRelease": false
+	}
+}
