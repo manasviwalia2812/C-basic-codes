@@ -7,6 +7,10 @@ struct Node
   struct Node *next;
 };
 
+void linkedListTraversal(struct Node)
+{
+}
+
 int main()
 {
   struct Node *head;
