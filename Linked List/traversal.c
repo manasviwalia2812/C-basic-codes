@@ -7,9 +7,15 @@ struct Node
   struct Node *next;
 };
 
-void linkedListTraversal(struct Node)
+// time complexity O(n)
+void linkedListTraversal(struct Node *ptr)
 {
-}
+  while (ptr != NULL)
+  {
+    printf("Element:%d\n", ptr->data);
+    ptr = ptr->next;
+  }
+};
 
 int main()
 {
@@ -33,6 +39,6 @@ int main()
   third->data = 66;
   third->next = NULL;
 
-  printf("%p", malloc(sizeof(struct Node)));
+  linkedListTraversal(head);
   return 0;
 }
